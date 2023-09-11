@@ -20,6 +20,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+
 const menuBtn = document.querySelector(".nav-menu-btn");
 const closeBtn = document.querySelector(".nav-close-btn");
 const navigation = document.querySelector(".navigation");
