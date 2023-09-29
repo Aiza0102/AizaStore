@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreEntrega1-Castellar Usta</title>
-    <link rel="stylesheet" href="../css/StyleHome.css">
+    <meta name="description" content="Aqui encontraras todos los productos que tenmos en stock, desliza hacia abajo y busca el que necesitas en tu mejor tienda de pc y componentes AizaStore">
+    <title>Producto | AizaStore</title>
+    <link rel="stylesheet" href="../css/StylesMain.css">
     <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,15 +23,499 @@
                 <div class="nav-items">
                     <i class="uil uil-times nav-close-btn"></i>
                     <a href="../index.html"><i class="uil uil-home"></i> Home</a>
-                    <a href="./Product.html"><i class="uil uil-arrow-right"></i> Product</a>
-                    <a href="./Contact.html"><i class="uil uil-envelope"></i> Contact</a>
-                    <a href="./Location.html"><i class="uil uil-location-pin-alt"></i>location</a>
-                    <a href="./About.html"><i class="uil uil-info-circle"></i> About</a>
+                    <a href="./Product.html"><i class="uil uil-shopping-cart"></i> Productos</a>
+                    <a href="./Contact.html"><i class="uil uil-envelope"></i> Contacto</a>
+                    <a href="./Location.html"><i class="uil uil-location-pin-alt"></i> Localidad</a>
+                    <a href="./About.html"><i class="uil uil-info-circle"></i> Nosotros</a>
                 </div>
             </div>
             <i class="uil uil-apps nav-menu-btn"></i>
         </div>
     </header>
+    <section class="home">
+        <div class="swiper bg-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide dark-layer">
+                    <img src="../img/img2.jpg" alt="Imagen 2 demostrativa de como podria verse tu setup gamer.">
+                    <div class="text-content">
+                        <h2 class="title2">AIZA STORE<span> PC AND COMPONENTS</span></h2>
+                        <p class="p2">Aquí encuentras tus productos, porque sabemos que cada pieza cuenta para potenciar
+                            tu computadora.</p>
+                        <button class="read-btn2">Lista de productos<i class="uil uil-arrow-down"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../img/img4.jpg" alt="Imagen 1 demostrativa de como podria verse tu setup gamer.">
+                    <div class="text-content">
+                        <h2 class="title2">AIZA STORE<span> PC AND COMPONENTS</span></h2>
+                        <p class="p2">Aquí encuentras tus productos, porque sabemos que cada pieza cuenta para potenciar
+                            tu computadora.</p>
+                        <button class="read-btn2">Lista de productos<i class="uil uil-arrow-down"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../img/img3.jpg" alt="Imagen 3 demostrativa de como podria verse tu setup gamer.">
+                    <div class="text-content">
+                        <h2 class="title2">AIZA STORE<span> PC AND COMPONENTS</span></h2>
+                        <p class="p2">Aquí encuentras tus productos, porque sabemos que cada pieza cuenta para potenciar
+                            tu computadora.</p>
+                        <button class="read-btn2">Lista de productos<i class="uil uil-arrow-down"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../img/img1.jpg" alt="Imagen 4 demostrativa de como podria verse tu setup gamer.">
+                    <div class="text-content">
+                        <h2 class="title2">AIZA STORE<span> PC AND COMPONENTS</span></h2>
+                        <p class="p2">Aquí encuentras tus productos, porque sabemos que cada pieza cuenta para potenciar
+                            tu computadora.</p>
+                        <button class="read-btn2">Lista de productos<i class="uil uil-arrow-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-slider-thumbs">
+            <div class="swiper-wrapper thumbs-container">
+            </div>
+        </div>
+    </section>
+
+    <section id="componentes" class="py-5">
+        <div class="container2">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Nuestros componentes</h2>
+            </div>
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn2 m-2 text-dark active-filter-btn" data-filter="*">Todos</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter=".ch">Chasis</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter=".pr">Procesadores</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter=".pm">Placa Madres</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter="">Ram</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter="">Tarjeta Grafica</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter="">Almacenamientos</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter="">Fuentes de poder</button>
+                    <button type="button" class="btn2 m-2 text-dark" data-filter="">Accesorios</button>
+                </div>
+                <div class="collection-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ch">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/chasis1.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            
+                            </div>
+                            <p class="text-capitalize my-1">Chasis Corsair Icue 4000X RGB White</p>
+                            <span class="fw-bold">$ 146</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ch">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/chasis4.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Chasis Corsair 4000d Airflow RGB White</p>
+                            <span class="fw-bold">$ 105.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ch">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/chasis3.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                
+                            </div>
+                            <p class="text-capitalize my-1">Chasis Corsair Crystal Series 680X RGB White</p>
+                            <span class="fw-bold">$ 414.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 ch">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/chasis2.png" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Chasis Corsair Icue 220T Rgb Airflow White</p>
+                            <span class="fw-bold">$ 136.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador2.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                
+                            </div>
+                            <p class="text-capitalize my-1">Procesador AMD Ryzen 7 5800X 8 núcleos Y 16 hilos</p>
+                            <span class="fw-bold">$ 204.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador1.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador AMD Ryzen 5 5600X 6 núcleos y 12 hilos</p>
+                            <span class="fw-bold">$ 156.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador3.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador AMD Ryzen 9 5900X 12 núcleos y 24 hilos</p>
+                            <span class="fw-bold">$ 390.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador4.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador AMD Ryzen 5 5600G 6 núcleos y 12 hilos con gráficos Radeon</p>
+                            <span class="fw-bold">$ 126.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador5.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador Intel Core i5-13600KF 14 núcleos 14 núcleos (6 núcleos P + 8 núcleos E)</p>
+                            <span class="fw-bold">$ 342.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador6.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador Intel Core i7-13700K 16 núcleos (8 núcleos P + 8 núcleos E)</p>
+                            <span class="fw-bold">$ 525.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador7.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador Intel Core i9-13900KF 24 núcleos (8 núcleos P + 16 núcleos E)</p>
+                            <span class="fw-bold">$ 620.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pr">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/procesador8.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Procesador Intel Core i3-13100F 4 núcleos (4 núcleos P + 0 núcleos E)</p>
+                            <span class="fw-bold">$ 105.99</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa1.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG Strix Z790-E Gaming WiFi 6E LGA 1700</p>
+                            <span class="fw-bold">$ 536.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa2.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG Maximus Z790 Hero (WiFi 6E) LGA 1700</p>
+                            <span class="fw-bold">$ 660.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa3.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre MSI MPG Z790 Edge WiFi LGA 1700</p>
+                            <span class="fw-bold">$ 445.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa4.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG Strix B760-F Gaming WiFi B760 LGA 1700</p>
+                            <span class="fw-bold">$ 324.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa5.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre MSI MAG Z790 Tomahawk WiFi Gaming LGA 1700</p>
+                            <span class="fw-bold">$ 312.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa6.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG Strix B760-I Gaming WiFi Intel B760 LGA 1700</p>
+                            <span class="fw-bold">$ 247.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa7.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG X570 Crosshair VIII Hero</p>
+                            <span class="fw-bold">$ 396.12</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa8.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS AM4 TUF Gaming X570-Plus</p>
+                            <span class="fw-bold">$ 199.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa9.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS ROG Crosshair VIII Extreme AMD AM4 X570/X570S EATX</p>
+                            <span class="fw-bold">$ 1.196.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa10.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre ASUS Prime B550-PLUS AMD AM4 Zen 3</p>
+                            <span class="fw-bold">$ 136.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa11.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre MSI MPG B550 Gaming Plus AM4 Zen 3</p>
+                            <span class="fw-bold">$ 126.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 pm">
+                        <div class="collection-img position-relative">
+                            <img src="../img/componentes/placa12.jpg" class="w-100">
+                            <span class="position-absolute bg-success d-flex align-items-center justify-content-center">Comprar</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                                <span class="text-success"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Placa madre GIGABYTE B650 AORUS Elite AX</p>
+                            <span class="fw-bold">$ 236.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="media-icons">
+            <!-- Texto de derechos de autor -->
+            <p>Todos los derechos son reservados por copyright...</p>
+            <!-- Íconos de redes sociales -->
+            <a href="#"><i class="uil uil-facebook"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="../js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

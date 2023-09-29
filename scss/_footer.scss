@@ -1,0 +1,65 @@
+footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los íconos de redes sociales en el footer */
+
+.media-icons {
+    margin-top: 20px;
+
+    a {
+        margin: 0 10px;
+        color: #fff;
+
+        /* Color blanco para los íconos */
+        font-size: 24px;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    a {
+        .uil-facebook:hover {
+            color: #1877F2;
+
+            /* Cambia de color al pasar el mouse */
+        }
+
+        .uil-instagram:hover {
+            color: #E4405F;
+
+            /* Cambia de color al pasar el mouse */
+        }
+
+        .uil-twitter:hover {
+            color: #1DA1F2;
+
+            /* Cambia de color al pasar el mouse */
+        }
+
+        .uil-whatsapp:hover {
+            color: #25D366;
+
+            /* Cambia de color al pasar el mouse */
+        }
+    }
+}
+
+.about {
+    h2 {
+        font-size: 3em;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 25px 0;
+    }
+}
