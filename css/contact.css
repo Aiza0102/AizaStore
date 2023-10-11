@@ -30,6 +30,9 @@
   background-color: #fff;
   box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
   transform: translateX(-50px);
+  margin-left: 0;
+  margin-right: 0;
+  transform: none;
 }
 
 .dark-layer:before {
@@ -84,18 +87,18 @@ textarea {
   min-height: 150px;
 }
 
-.btn {
+.btn5 {
   width: 100%;
   padding: 0.5rem 1rem;
   background-color: #b17a14;
-  color: #fff;
+  color: #ffffff;
   font-size: 1.1rem;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   outline: none;
   cursor: pointer;
   transition: 0.3s;
 }
-.btn:hover {
+.btn5:hover {
   background-color: #b17a14;
   border: 1px solid rgb(0, 0, 0);
 }

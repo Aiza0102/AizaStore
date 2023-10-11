@@ -12,33 +12,39 @@
   background: linear-gradient(transparent, var(--body-bg-color));
 }
 
-.swiper-slide .text-content .title2 {
+.swiper-slide .text-content2 {
+  position: absolute;
+  top: 25%;
+  color: rgb(255, 255, 255);
+  margin: 0 100px;
+  transition: 0.3s ease;
+}
+.swiper-slide .text-content2 .title2 {
   font-size: 4em;
   font-weight: 700;
   text-shadow: var(--text-shadow);
-  margin: 0 auto;
   margin-bottom: 20px;
   position: relative;
-  left: 75%;
+  left: 110%;
   transform: translateY(-50px);
   opacity: 0;
 }
 
-.swiper-slide-active .text-content .title2 {
+.swiper-slide-active .text-content2 .title2 {
   transform: translateY(0);
   position: relative;
-  left: 75%;
+  left: 100%;
   opacity: 1;
   transition: 1s ease;
   transition-delay: 0.3s;
   transition-property: transform, opacity;
 }
 
-.swiper-slide .text-content .title2 span {
+.swiper-slide .text-content2 .title2 span {
   font-size: 0.3em;
   font-weight: 300;
 }
-.swiper-slide .text-content .p2 {
+.swiper-slide .text-content2 .p2 {
   max-width: 700px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -49,12 +55,12 @@
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--box-shadow);
   position: relative;
-  left: 67%;
+  left: 90%;
   transform: translateY(-80px);
   opacity: 0;
 }
 
-.swiper-slide-active .text-content .p2 {
+.swiper-slide-active .text-content2 .p2 {
   transform: translateY(0);
   opacity: 1;
   transition: 1s ease;
@@ -62,7 +68,7 @@
   transition-property: transform, opacity;
 }
 
-.swiper-slide .text-content .read-btn2 {
+.swiper-slide .text-content2 .read-btn2 {
   border: none;
   outline: none;
   background: var(--white-color);
@@ -76,12 +82,12 @@
   border-radius: 10px;
   cursor: pointer;
   position: relative;
-  left: 100%;
+  left: 125%;
   transform: translateX(-50px);
   opacity: 0;
 }
 
-.swiper-slide-active .text-content .read-btn2 {
+.swiper-slide-active .text-content2 .read-btn2 {
   transform: translateX(0);
   opacity: 1;
   transition: 1s ease;
@@ -89,11 +95,11 @@
   transition-property: transform, opacity;
 }
 
-.swiper-slide .text-content .read-btn2 i {
+.swiper-slide .text-content2 .read-btn2 i {
   font-size: 1.6em;
   transition: 0.3s ease;
 }
-.swiper-slide .text-content .read-btn2:hover i {
+.swiper-slide .text-content2 .read-btn2:hover i {
   transform: translateX(5px);
 }
 
